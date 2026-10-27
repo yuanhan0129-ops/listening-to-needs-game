@@ -79,11 +79,13 @@ export class GameScene extends Phaser.Scene {
 
     const width = Math.max(320, this.scale.width || 960);
     const height = Math.max(400, this.scale.height || 640);
+    const safePadding = width < 440 ? 18 : width < 760 ? 28 : 48;
+    const contentWidth = Math.min(width - safePadding * 2, 880);
     this.layout = {
       width,
       height,
-      compact: width < 560 || height < 620,
-      padding: width < 440 ? 18 : width < 760 ? 28 : 48,
+      compact: width < 620 || height < 620,
+      padding: (width - contentWidth) / 2,
     };
 
     this.drawBackground();
@@ -166,8 +168,11 @@ export class GameScene extends Phaser.Scene {
   renderDialogue() {
     const { width, height, padding, compact } = this.layout;
     const contentWidth = width - padding * 2;
-    const panelY = compact ? 142 : 158;
-    const panelHeight = Math.min(348, Math.max(224, height - panelY - 104));
+    const panelHeight = compact
+      ? Math.min(310, Math.max(190, height - 260))
+      : Math.min(340, Math.max(224, height - 260));
+    const contentHeight = panelHeight + 66;
+    const panelY = Math.max(132, Math.round(108 + (height - contentHeight - 108) * 0.32));
     const panelX = padding;
     const avatarSize = compact ? 58 : 74;
     const line = firstEpisode.dialogue[this.dialogueIndex];
@@ -198,7 +203,7 @@ export class GameScene extends Phaser.Scene {
     this.drawMainButton(
       isLastLine ? '推敲感受與需要' : '繼續對話',
       padding,
-      height - 68,
+      panelY + panelHeight + 18,
       contentWidth,
       48,
       () => {
@@ -275,7 +280,7 @@ export class GameScene extends Phaser.Scene {
     this.drawMainButton(
       '選擇回應',
       padding,
-      height - 62,
+      Math.min(height - 62, noteY + 38),
       contentWidth,
       46,
       () => {
@@ -311,7 +316,7 @@ export class GameScene extends Phaser.Scene {
       });
     });
 
-    this.addText('鍵盤可按 1–3 選擇；觸控或滑鼠也可以。', padding, height - 32, 12, COLORS.muted);
+    this.addText('鍵盤可按 1–3 選擇；觸控或滑鼠也可以。', padding, cardTop + firstEpisode.responses.length * (cardHeight + gap) + 18, 12, COLORS.muted);
   }
 
   renderEnding() {
@@ -350,11 +355,12 @@ export class GameScene extends Phaser.Scene {
       lineSpacing: 3,
     });
 
-    this.drawMainButton('想想自己此刻的感受與需要', padding, height - 98, contentWidth, 44, () => {
+    const actionY = Math.min(height - 98, summaryY + summaryHeight + 18);
+    this.drawMainButton('想想自己此刻的感受與需要', padding, actionY, contentWidth, 44, () => {
       this.stage = 'reflection';
       this.renderScreen();
     });
-    this.drawTextButton('略過反思，完成故事', width / 2, height - 38, () => this.finishStory());
+    this.drawTextButton('略過反思，完成故事', width / 2, actionY + 66, () => this.finishStory());
   }
 
   renderReflection() {
@@ -379,8 +385,9 @@ export class GameScene extends Phaser.Scene {
       wrapWidth: contentWidth - 48,
     });
 
-    this.drawMainButton('完成這段故事', padding, height - 98, contentWidth, 44, () => this.finishStory());
-    this.drawTextButton('略過', width / 2, height - 38, () => this.finishStory());
+    const actionY = Math.min(height - 98, panelY + panelHeight + 18);
+    this.drawMainButton('完成這段故事', padding, actionY, contentWidth, 44, () => this.finishStory());
+    this.drawTextButton('略過', width / 2, actionY + 66, () => this.finishStory());
   }
 
   renderComplete() {
@@ -408,12 +415,13 @@ export class GameScene extends Phaser.Scene {
     });
     this.addText(`已探索 ${this.visitedPaths.size} / ${firstEpisode.responses.length} 種對話發展`, padding + 22, panelY + 164, compact ? 12 : 13, COLORS.muted);
 
-    this.drawMainButton('看看另一種回應', padding, height - 106, contentWidth, 46, () => {
+    const actionY = Math.min(height - 106, panelY + 192 + 22);
+    this.drawMainButton('看看另一種回應', padding, actionY, contentWidth, 46, () => {
       this.stage = 'response';
       this.selectedResponseId = null;
       this.renderScreen();
     });
-    this.drawTextButton('重新讀一次故事', width / 2, height - 40, () => this.restartStory());
+    this.drawTextButton('重新讀一次故事', width / 2, actionY + 68, () => this.restartStory());
   }
 
   drawPanel(x, y, width, height, fill, stroke, radius = 20) {
@@ -539,6 +547,7 @@ export class GameScene extends Phaser.Scene {
     const style = {
       fontFamily: FONT_STACK,
       fontSize: `${fontSize}px`,
+      resolution: Math.min(2, Math.max(1, window.devicePixelRatio || 1)),
       color: typeof color === 'number' ? `#${color.toString(16).padStart(6, '0')}` : color,
       lineSpacing: options.lineSpacing ?? 4,
       align: options.align ?? 'left',

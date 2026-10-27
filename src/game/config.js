@@ -6,7 +6,15 @@ const gameConfig = {
   parent: 'game',
   width: 960,
   height: 540,
-  backgroundColor: '#10131c',
+  backgroundColor: '#f4f1ea',
+  scale: {
+    mode: Phaser.Scale.RESIZE,
+    autoCenter: Phaser.Scale.CENTER_BOTH,
+  },
+  render: {
+    antialias: true,
+    roundPixels: false,
+  },
   scene: [GameScene],
 };
 
