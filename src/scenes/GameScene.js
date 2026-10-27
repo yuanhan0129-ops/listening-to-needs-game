@@ -33,7 +33,7 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('yu-an', `${import.meta.env.BASE_URL}assets/images/characters/yu-an.svg`);
+    this.load.image('yu-an', `${import.meta.env.BASE_URL}assets/images/characters/yu-an.svg?v=2`);
   }
 
   create() {
