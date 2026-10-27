@@ -2,17 +2,19 @@ import * as Phaser from 'phaser';
 import { firstEpisode } from '../data/scenarios.js';
 
 const COLORS = {
-  background: 0xf4f1ea,
-  paper: 0xfffefa,
-  ink: 0x34433d,
-  muted: 0x728078,
-  line: 0xd9dfd7,
-  sage: 0x6d887b,
-  sageLight: 0xe5ece6,
-  blue: 0x748b98,
-  blueLight: 0xe8eef0,
-  clay: 0xb8795f,
-  clayLight: 0xf3e5dd,
+  background: 0xf5f2ec,
+  paper: 0xfffdfa,
+  ink: 0x293a33,
+  muted: 0x78837c,
+  line: 0xe3e5de,
+  sage: 0x607d6e,
+  sageDark: 0x405a4d,
+  sageLight: 0xe7eee8,
+  blue: 0x718894,
+  blueLight: 0xe9eff1,
+  clay: 0xb57c5f,
+  clayLight: 0xf2e6dd,
+  gold: 0xc7a27a,
   white: 0xffffff,
 };
 
@@ -33,7 +35,7 @@ export class GameScene extends Phaser.Scene {
   }
 
   preload() {
-    this.load.image('yu-an', `${import.meta.env.BASE_URL}assets/images/characters/yu-an.svg?v=2`);
+    this.load.image('yu-an', `${import.meta.env.BASE_URL}assets/images/characters/yu-an-portrait.png?v=1`);
   }
 
   create() {
@@ -132,18 +134,28 @@ export class GameScene extends Phaser.Scene {
     background.setOrigin(0);
 
     const decoration = this.keep(this.add.graphics());
-    decoration.fillStyle(COLORS.sage, 0.08);
-    decoration.fillCircle(width - 28, 42, Math.min(110, width * 0.18));
-    decoration.fillStyle(COLORS.clay, 0.07);
-    decoration.fillCircle(16, height - 18, Math.min(92, width * 0.15));
+    const topRadius = Math.min(144, width * 0.2);
+    decoration.fillStyle(COLORS.sage, 0.045);
+    decoration.fillCircle(width - 24, 28, topRadius);
+    decoration.lineStyle(1, COLORS.sage, 0.09);
+    decoration.strokeCircle(width - 24, 28, topRadius * 0.77);
+    decoration.fillStyle(COLORS.clay, 0.045);
+    decoration.fillCircle(12, height - 16, Math.min(126, width * 0.17));
+    decoration.lineStyle(1, COLORS.clay, 0.08);
+    decoration.strokeCircle(12, height - 16, Math.min(92, width * 0.125));
   }
 
   drawHeader() {
     const { width, padding, compact } = this.layout;
-    const titleSize = compact ? 25 : 31;
+    const titleSize = compact ? 27 : 34;
     const tagWidth = width < 370 ? 82 : 112;
 
-    this.addText('聽見需要', padding, 14, compact ? 16 : 18, COLORS.sage, {
+    const mark = this.keep(this.add.graphics());
+    mark.lineStyle(1.5, COLORS.sage, 0.86);
+    mark.strokeCircle(padding + 8, 24, 8);
+    mark.fillStyle(COLORS.clay, 1);
+    mark.fillCircle(padding + 11, 21, 3);
+    this.addText('聽見需要', padding + 24, 14, compact ? 16 : 18, COLORS.sageDark, {
       fontStyle: 'bold',
     });
     this.drawPill(
@@ -160,44 +172,80 @@ export class GameScene extends Phaser.Scene {
       fontStyle: 'bold',
       wrapWidth: width - padding * 2,
     });
-    this.addText(firstEpisode.description, padding, compact ? 86 : 94, compact ? 14 : 16, COLORS.muted, {
+    this.addText(firstEpisode.description, padding, compact ? 88 : 98, compact ? 14 : 16, COLORS.muted, {
       wrapWidth: width - padding * 2,
     });
+    const rule = this.keep(this.add.graphics());
+    rule.fillStyle(COLORS.gold, 0.88);
+    rule.fillRoundedRect(padding, compact ? 114 : 124, 38, 2, 1);
   }
 
   renderDialogue() {
     const { width, height, padding, compact } = this.layout;
     const contentWidth = width - padding * 2;
-    const panelHeight = compact
-      ? Math.min(310, Math.max(190, height - 260))
-      : Math.min(340, Math.max(224, height - 260));
+    const panelHeight = compact ? Math.min(360, Math.max(250, height - 260)) : 360;
     const contentHeight = panelHeight + 66;
-    const panelY = Math.max(132, Math.round(108 + (height - contentHeight - 108) * 0.32));
+    const panelY = Math.max(142, Math.min(220, Math.round(132 + (height - contentHeight - 160) * 0.12)));
     const panelX = padding;
-    const avatarSize = compact ? 58 : 74;
+    const avatarSize = compact ? (height < 620 ? 86 : 126) : panelHeight - 40;
     const line = firstEpisode.dialogue[this.dialogueIndex];
 
     this.addText('對話線索', panelX, panelY - 22, compact ? 13 : 14, COLORS.muted, {
       fontStyle: 'bold',
     });
-    this.drawPanel(panelX, panelY, contentWidth, panelHeight, COLORS.paper, COLORS.line, 22);
-    this.keep(
-      this.add
-        .image(panelX + 22, panelY + 20, firstEpisode.character.portrait)
-        .setDisplaySize(avatarSize, avatarSize)
-        .setOrigin(0),
-    );
-    this.addText(firstEpisode.character.name, panelX + avatarSize + 38, panelY + 28, compact ? 17 : 19, COLORS.ink, {
-      fontStyle: 'bold',
-    });
-    this.addText(firstEpisode.character.role, panelX + avatarSize + 38, panelY + 55, compact ? 13 : 14, COLORS.muted);
+    this.drawPanel(panelX, panelY, contentWidth, panelHeight, COLORS.paper, COLORS.line, 24);
 
-    const dialogueY = panelY + avatarSize + 44;
-    this.addText(`「${line}」`, panelX + 24, dialogueY, compact ? 18 : 22, COLORS.ink, {
-      wrapWidth: contentWidth - 48,
-      lineSpacing: 7,
-    });
-    this.addText(`${this.dialogueIndex + 1} / ${firstEpisode.dialogue.length}`, panelX + 24, panelY + panelHeight - 28, 13, COLORS.muted);
+    if (compact) {
+      const imageX = panelX + 22;
+      const imageY = panelY + 20;
+      const frame = this.keep(this.add.graphics());
+      frame.fillStyle(COLORS.sageLight, 1);
+      frame.fillRoundedRect(imageX - 4, imageY - 4, avatarSize + 8, avatarSize + 8, 24);
+      frame.lineStyle(1, COLORS.line, 0.9);
+      frame.strokeRoundedRect(imageX - 4, imageY - 4, avatarSize + 8, avatarSize + 8, 24);
+      this.keep(this.add.image(imageX, imageY, firstEpisode.character.portrait).setDisplaySize(avatarSize, avatarSize).setOrigin(0));
+
+      const identityX = imageX + avatarSize + 24;
+      this.addText(firstEpisode.character.name, identityX, imageY + 22, 22, COLORS.ink, { fontStyle: 'bold' });
+      this.drawPill(identityX, imageY + 56, 72, 25, firstEpisode.character.role, COLORS.sageLight, COLORS.sageDark, 12);
+      this.addText('工作與休息', identityX, imageY + 94, 12, COLORS.muted);
+
+      const separatorY = height < 620 ? 128 : 168;
+      const separator = this.keep(this.add.graphics());
+      separator.fillStyle(COLORS.line, 1);
+      separator.fillRoundedRect(panelX + 22, panelY + separatorY, contentWidth - 44, 1, 0.5);
+      this.addText('予安說', panelX + 24, panelY + separatorY + 16, 12, COLORS.sage, { fontStyle: 'bold' });
+      this.addText(`「${line}」`, panelX + 24, panelY + separatorY + 40, height < 620 ? 16 : 18, COLORS.ink, {
+        wrapWidth: contentWidth - 48,
+        lineSpacing: 8,
+      });
+      this.drawProgressIndicator(panelX + 24, panelY + panelHeight - 50, contentWidth - 48, this.dialogueIndex, firstEpisode.dialogue.length);
+    } else {
+      const imageX = panelX + 20;
+      const imageY = panelY + 20;
+      const frame = this.keep(this.add.graphics());
+      frame.fillStyle(COLORS.sageLight, 1);
+      frame.fillRoundedRect(imageX - 4, imageY - 4, avatarSize + 8, avatarSize + 8, 24);
+      frame.lineStyle(1, COLORS.line, 0.9);
+      frame.strokeRoundedRect(imageX - 4, imageY - 4, avatarSize + 8, avatarSize + 8, 24);
+      this.keep(this.add.image(imageX, imageY, firstEpisode.character.portrait).setDisplaySize(avatarSize, avatarSize).setOrigin(0));
+
+      const dividerX = imageX + avatarSize + 24;
+      const separator = this.keep(this.add.graphics());
+      separator.fillStyle(COLORS.line, 1);
+      separator.fillRoundedRect(dividerX, panelY + 24, 1, panelHeight - 48, 0.5);
+      const textX = dividerX + 24;
+      const textWidth = panelX + contentWidth - textX - 24;
+      this.addText(firstEpisode.character.name, textX, panelY + 34, 24, COLORS.ink, { fontStyle: 'bold' });
+      this.drawPill(textX + 80, panelY + 34, 64, 26, firstEpisode.character.role, COLORS.sageLight, COLORS.sageDark, 12);
+      this.addText('一段關於工作與休息的對話', textX, panelY + 68, 13, COLORS.muted);
+      this.addText('對話線索', textX, panelY + 124, 12, COLORS.sage, { fontStyle: 'bold' });
+      this.addText(`「${line}」`, textX, panelY + 151, 21, COLORS.ink, {
+        wrapWidth: textWidth,
+        lineSpacing: 9,
+      });
+      this.drawProgressIndicator(textX, panelY + panelHeight - 50, textWidth, this.dialogueIndex, firstEpisode.dialogue.length);
+    }
 
     const isLastLine = this.dialogueIndex === firstEpisode.dialogue.length - 1;
     this.drawMainButton(
@@ -333,10 +381,10 @@ export class GameScene extends Phaser.Scene {
     this.keep(
       this.add
         .image(padding + 18, panelY + 18, firstEpisode.character.portrait)
-        .setDisplaySize(compact ? 48 : 56, compact ? 48 : 56)
+        .setDisplaySize(compact ? 60 : 68, compact ? 60 : 68)
         .setOrigin(0),
     );
-    this.addText(firstEpisode.character.name, padding + (compact ? 76 : 86), panelY + 26, compact ? 15 : 17, COLORS.ink, {
+    this.addText(firstEpisode.character.name, padding + (compact ? 80 : 94), panelY + 26, compact ? 17 : 19, COLORS.ink, {
       fontStyle: 'bold',
     });
     this.addText(`「${response.ending}」`, padding + 22, panelY + (compact ? 82 : 92), compact ? 16 : 18, COLORS.ink, {
@@ -426,6 +474,8 @@ export class GameScene extends Phaser.Scene {
 
   drawPanel(x, y, width, height, fill, stroke, radius = 20) {
     const graphics = this.keep(this.add.graphics());
+    graphics.fillStyle(COLORS.ink, 0.045);
+    graphics.fillRoundedRect(x + 1, y + 5, width - 2, height, radius);
     graphics.fillStyle(fill, 1);
     graphics.fillRoundedRect(x, y, width, height, radius);
     if (stroke !== fill) {
@@ -439,6 +489,8 @@ export class GameScene extends Phaser.Scene {
     const graphics = this.keep(this.add.graphics());
     graphics.fillStyle(fill, 1);
     graphics.fillRoundedRect(x, y, width, height, height / 2);
+    graphics.lineStyle(1, COLORS.line, 0.7);
+    graphics.strokeRoundedRect(x, y, width, height, height / 2);
     this.addText(label, x + width / 2, y + height / 2, fontSize, textColor, {
       originX: 0.5,
       originY: 0.5,
@@ -453,16 +505,17 @@ export class GameScene extends Phaser.Scene {
     const graphics = this.keep(this.add.graphics());
     const paint = (nextFill, nextStroke) => {
       graphics.clear();
+      graphics.fillStyle(COLORS.ink, selected ? 0.055 : 0.028);
+      graphics.fillRoundedRect(x, y + 3, width, height, 15);
       graphics.fillStyle(nextFill, 1);
       graphics.fillRoundedRect(x, y, width, height, 15);
       graphics.lineStyle(selected ? 2 : 1, nextStroke, 1);
       graphics.strokeRoundedRect(x, y, width, height, 15);
     };
     paint(fill, stroke);
-    this.addText(selected ? `✓ ${label}` : label, x + 12, y + height / 2, this.layout.compact ? 14 : 16, COLORS.ink, {
+    this.addText(selected ? `✓  ${label}` : label, x + 16, y + height / 2, this.layout.compact ? 14 : 16, COLORS.ink, {
       originY: 0.5,
-      wrapWidth: width - 24,
-      align: 'center',
+      wrapWidth: width - 32,
     });
 
     const zone = this.keep(this.add.zone(x + width / 2, y + height / 2, width, height));
@@ -479,10 +532,14 @@ export class GameScene extends Phaser.Scene {
     const graphics = this.keep(this.add.graphics());
     const paint = (fill, stroke) => {
       graphics.clear();
+      graphics.fillStyle(COLORS.ink, 0.04);
+      graphics.fillRoundedRect(x, y + 4, width, height, 18);
       graphics.fillStyle(fill, 1);
       graphics.fillRoundedRect(x, y, width, height, 18);
       graphics.lineStyle(1, stroke, 1);
       graphics.strokeRoundedRect(x, y, width, height, 18);
+      graphics.fillStyle(COLORS.gold, 0.9);
+      graphics.fillRoundedRect(x + 1, y + 18, 3, height - 36, 1.5);
     };
     paint(COLORS.paper, COLORS.line);
     this.addText(`${index + 1}. ${response.title}`, x + 18, y + 10, this.layout.compact ? 13 : 14, COLORS.sage, {
@@ -509,11 +566,17 @@ export class GameScene extends Phaser.Scene {
     const graphics = this.keep(this.add.graphics());
     const paint = (color) => {
       graphics.clear();
+      graphics.fillStyle(COLORS.ink, disabled ? 0.015 : 0.13);
+      graphics.fillRoundedRect(buttonX, y + 4, buttonWidth, height, 16);
       graphics.fillStyle(color, 1);
       graphics.fillRoundedRect(buttonX, y, buttonWidth, height, 16);
+      if (!disabled) {
+        graphics.lineStyle(1, COLORS.white, 0.16);
+        graphics.strokeRoundedRect(buttonX + 0.5, y + 0.5, buttonWidth - 1, height - 1, 16);
+      }
     };
     paint(fill);
-    this.addText(label, buttonX + buttonWidth / 2, y + height / 2, this.layout.compact ? 15 : 17, disabled ? COLORS.ink : COLORS.white, {
+    this.addText(disabled ? label : `${label}  →`, buttonX + buttonWidth / 2, y + height / 2, this.layout.compact ? 15 : 17, disabled ? COLORS.ink : COLORS.white, {
       originX: 0.5,
       originY: 0.5,
       wrapWidth: buttonWidth - 24,
@@ -524,7 +587,7 @@ export class GameScene extends Phaser.Scene {
     const zone = this.keep(this.add.zone(buttonX + buttonWidth / 2, y + height / 2, buttonWidth, height));
     if (!disabled) {
       zone.setInteractive({ useHandCursor: true });
-      zone.on('pointerover', () => paint(0x587565));
+      zone.on('pointerover', () => paint(COLORS.sageDark));
       zone.on('pointerout', () => paint(COLORS.sage));
       zone.on('pointerdown', onClick);
       this.primaryAction = onClick;
@@ -541,6 +604,17 @@ export class GameScene extends Phaser.Scene {
     zone.on('pointerover', () => text.setColor('#34433d'));
     zone.on('pointerout', () => text.setColor('#728078'));
     zone.on('pointerdown', onClick);
+  }
+
+  drawProgressIndicator(x, y, width, currentIndex, total) {
+    this.addText(`對話進度  ${currentIndex + 1} / ${total}`, x, y, 11, COLORS.muted);
+    const graphics = this.keep(this.add.graphics());
+    const gap = 5;
+    const segmentWidth = (width - gap * (total - 1)) / total;
+    for (let index = 0; index < total; index += 1) {
+      graphics.fillStyle(index <= currentIndex ? COLORS.sage : COLORS.line, 1);
+      graphics.fillRoundedRect(x + index * (segmentWidth + gap), y + 18, segmentWidth, 4, 2);
+    }
   }
 
   addText(text, x, y, fontSize, color, options = {}) {

@@ -3,7 +3,7 @@ export const firstEpisode = {
   number: '01',
   category: '休息',
   title: '很累，卻停不下來',
-  description: '和虛構角色進行一場日常對話練習。',
+  description: '在工作與休息之間，練習聽見情緒與需要。',
   character: {
     name: '予安',
     role: '同事',
