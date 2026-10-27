@@ -1,0 +1,8357 @@
+{
+  "schemaVersion": 1,
+  "pack": "ui-pack",
+  "assetRoot": "public/assets/kenney/ui-pack",
+  "source": {
+    "schemaVersion": 1,
+    "pack": "ui-pack",
+    "sourcePage": "https://kenney.nl/assets/ui-pack",
+    "downloadedAt": "2026-10-27T07:51:27+00:00",
+    "archive": "assets/source/kenney/ui-pack.zip",
+    "extractedTo": "public/assets/kenney/ui-pack",
+    "archiveBytes": 1229750,
+    "archiveSha256": "a8a14a234911eb648c062622915c93e79e94e97cb7f9f375a70f6617f1174318",
+    "expandedBytes": 1416520
+  },
+  "summary": {
+    "fileCount": 1315,
+    "totalBytes": 1416520,
+    "byExtension": {
+      ".ogg": 6,
+      ".png": 870,
+      ".svg": 434,
+      ".ttf": 2,
+      ".txt": 1,
+      ".url": 2
+    }
+  },
+  "referenceFiles": {
+    "licenses": [
+      "License.txt"
+    ],
+    "readmes": [],
+    "tilesheets": [],
+    "instructions": [],
+    "previews": [
+      "Preview.png",
+      "Sample.png"
+    ]
+  },
+  "files": [
+    {
+      "path": "Font/Kenney Future Narrow.ttf",
+      "bytes": 34180,
+      "extension": ".ttf"
+    },
+    {
+      "path": "Font/Kenney Future.ttf",
+      "bytes": 34160,
+      "extension": ".ttf"
+    },
+    {
+      "path": "License.txt",
+      "bytes": 565,
+      "extension": ".txt"
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_e.png",
+      "bytes": 422,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_e_small.png",
+      "bytes": 378,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_n.png",
+      "bytes": 391,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_n_small.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_s.png",
+      "bytes": 414,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_s_small.png",
+      "bytes": 332,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_w.png",
+      "bytes": 402,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_basic_w_small.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_e.png",
+      "bytes": 566,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_e_small.png",
+      "bytes": 459,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_n.png",
+      "bytes": 511,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_n_small.png",
+      "bytes": 405,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_s.png",
+      "bytes": 530,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_s_small.png",
+      "bytes": 424,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_w.png",
+      "bytes": 562,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/arrow_decorative_w_small.png",
+      "bytes": 484,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_border.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_depth_border.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_depth_flat.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_depth_gloss.png",
+      "bytes": 373,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_depth_gradient.png",
+      "bytes": 582,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_depth_line.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_flat.png",
+      "bytes": 315,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_gloss.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_gradient.png",
+      "bytes": 528,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_rectangle_line.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_border.png",
+      "bytes": 1483,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_depth_border.png",
+      "bytes": 1788,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_depth_flat.png",
+      "bytes": 1301,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_depth_gloss.png",
+      "bytes": 1210,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_depth_gradient.png",
+      "bytes": 1571,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_depth_line.png",
+      "bytes": 1690,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_flat.png",
+      "bytes": 1023,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_gloss.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_gradient.png",
+      "bytes": 1294,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_round_line.png",
+      "bytes": 1413,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_border.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_depth_border.png",
+      "bytes": 375,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_depth_flat.png",
+      "bytes": 355,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_depth_gloss.png",
+      "bytes": 337,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_depth_gradient.png",
+      "bytes": 575,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_depth_line.png",
+      "bytes": 374,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_flat.png",
+      "bytes": 286,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_gloss.png",
+      "bytes": 268,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_gradient.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/button_square_line.png",
+      "bytes": 304,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Default/check_round_color.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_round_grey.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_round_grey_circle.png",
+      "bytes": 774,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_round_round_circle.png",
+      "bytes": 767,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_color.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_color_checkmark.png",
+      "bytes": 555,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_color_cross.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_color_square.png",
+      "bytes": 319,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_grey.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_grey_checkmark.png",
+      "bytes": 559,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_grey_cross.png",
+      "bytes": 539,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/check_square_grey_square.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/icon_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Blue/Default/icon_circle.png",
+      "bytes": 312,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/icon_cross.png",
+      "bytes": 350,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Blue/Default/icon_outline_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Blue/Default/icon_outline_circle.png",
+      "bytes": 312,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/icon_outline_cross.png",
+      "bytes": 352,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Blue/Default/icon_outline_square.png",
+      "bytes": 135,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/icon_square.png",
+      "bytes": 142,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_hangle.png",
+      "bytes": 295,
+      "extension": ".png",
+      "width": 24,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/slide_horizontal_color.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_horizontal_color_section.png",
+      "bytes": 320,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_horizontal_color_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_horizontal_grey.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_horizontal_grey_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_horizontal_grey_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_vertical_color.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Blue/Default/slide_vertical_color_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_vertical_color_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/slide_vertical_grey.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Blue/Default/slide_vertical_grey_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Blue/Default/slide_vertical_grey_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Default/star.png",
+      "bytes": 1507,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Blue/Default/star_outline.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Blue/Default/star_outline_depth.png",
+      "bytes": 1168,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_e.png",
+      "bytes": 637,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_e_small.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_n.png",
+      "bytes": 622,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_n_small.png",
+      "bytes": 471,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_s.png",
+      "bytes": 694,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_s_small.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_w.png",
+      "bytes": 639,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_basic_w_small.png",
+      "bytes": 549,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_e.png",
+      "bytes": 859,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_e_small.png",
+      "bytes": 697,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_n.png",
+      "bytes": 880,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_n_small.png",
+      "bytes": 649,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_s.png",
+      "bytes": 951,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_s_small.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_w.png",
+      "bytes": 902,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/arrow_decorative_w_small.png",
+      "bytes": 721,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_border.png",
+      "bytes": 692,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_depth_border.png",
+      "bytes": 819,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_depth_flat.png",
+      "bytes": 785,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_depth_gloss.png",
+      "bytes": 748,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_depth_gradient.png",
+      "bytes": 1080,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_depth_line.png",
+      "bytes": 817,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_flat.png",
+      "bytes": 661,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_gloss.png",
+      "bytes": 623,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_gradient.png",
+      "bytes": 969,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_rectangle_line.png",
+      "bytes": 688,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_border.png",
+      "bytes": 2789,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_depth_border.png",
+      "bytes": 3359,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_depth_flat.png",
+      "bytes": 2476,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_depth_gloss.png",
+      "bytes": 2263,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_depth_gradient.png",
+      "bytes": 2809,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_depth_line.png",
+      "bytes": 3231,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_flat.png",
+      "bytes": 1863,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_gloss.png",
+      "bytes": 1735,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_gradient.png",
+      "bytes": 2318,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_round_line.png",
+      "bytes": 2669,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_border.png",
+      "bytes": 544,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_depth_border.png",
+      "bytes": 686,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_depth_flat.png",
+      "bytes": 652,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_depth_gloss.png",
+      "bytes": 630,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_depth_gradient.png",
+      "bytes": 956,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_depth_line.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_flat.png",
+      "bytes": 524,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_gloss.png",
+      "bytes": 503,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_gradient.png",
+      "bytes": 824,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/button_square_line.png",
+      "bytes": 541,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Blue/Double/check_round_color.png",
+      "bytes": 1040,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_round_grey.png",
+      "bytes": 1041,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_round_grey_circle.png",
+      "bytes": 1387,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_round_round_circle.png",
+      "bytes": 1378,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_color.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_color_checkmark.png",
+      "bytes": 950,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_color_cross.png",
+      "bytes": 901,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_color_square.png",
+      "bytes": 535,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_grey.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_grey_checkmark.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_grey_cross.png",
+      "bytes": 909,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/check_square_grey_square.png",
+      "bytes": 539,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/icon_checkmark.png",
+      "bytes": 583,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Blue/Double/icon_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/icon_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Blue/Double/icon_outline_checkmark.png",
+      "bytes": 585,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Blue/Double/icon_outline_circle.png",
+      "bytes": 465,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/icon_outline_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Blue/Double/icon_outline_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/icon_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_hangle.png",
+      "bytes": 440,
+      "extension": ".png",
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/slide_horizontal_color.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_horizontal_color_section.png",
+      "bytes": 432,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_horizontal_color_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_horizontal_grey.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_horizontal_grey_section.png",
+      "bytes": 430,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_horizontal_grey_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_vertical_color.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Blue/Double/slide_vertical_color_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_vertical_color_section_wide.png",
+      "bytes": 474,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/slide_vertical_grey.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Blue/Double/slide_vertical_grey_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Blue/Double/slide_vertical_grey_section_wide.png",
+      "bytes": 473,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Blue/Double/star.png",
+      "bytes": 2861,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Blue/Double/star_outline.png",
+      "bytes": 1800,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Blue/Double/star_outline_depth.png",
+      "bytes": 2141,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Extra/Default/button_rectangle_depth_line.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/button_rectangle_line.png",
+      "bytes": 327,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/button_round_depth_line.png",
+      "bytes": 1462,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/button_round_line.png",
+      "bytes": 1176,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/button_square_depth_line.png",
+      "bytes": 362,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/button_square_line.png",
+      "bytes": 292,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/divider.png",
+      "bytes": 89,
+      "extension": ".png",
+      "width": 64,
+      "height": 4
+    },
+    {
+      "path": "PNG/Extra/Default/divider_edges.png",
+      "bytes": 121,
+      "extension": ".png",
+      "width": 64,
+      "height": 4
+    },
+    {
+      "path": "PNG/Extra/Default/icon_arrow_down_dark.png",
+      "bytes": 237,
+      "extension": ".png",
+      "width": 34,
+      "height": 22
+    },
+    {
+      "path": "PNG/Extra/Default/icon_arrow_down_light.png",
+      "bytes": 251,
+      "extension": ".png",
+      "width": 34,
+      "height": 22
+    },
+    {
+      "path": "PNG/Extra/Default/icon_arrow_down_outline.png",
+      "bytes": 357,
+      "extension": ".png",
+      "width": 38,
+      "height": 26
+    },
+    {
+      "path": "PNG/Extra/Default/icon_arrow_up_dark.png",
+      "bytes": 243,
+      "extension": ".png",
+      "width": 34,
+      "height": 22
+    },
+    {
+      "path": "PNG/Extra/Default/icon_arrow_up_light.png",
+      "bytes": 276,
+      "extension": ".png",
+      "width": 34,
+      "height": 22
+    },
+    {
+      "path": "PNG/Extra/Default/icon_arrow_up_outline.png",
+      "bytes": 358,
+      "extension": ".png",
+      "width": 38,
+      "height": 26
+    },
+    {
+      "path": "PNG/Extra/Default/icon_play_dark.png",
+      "bytes": 323,
+      "extension": ".png",
+      "width": 30,
+      "height": 34
+    },
+    {
+      "path": "PNG/Extra/Default/icon_play_light.png",
+      "bytes": 323,
+      "extension": ".png",
+      "width": 30,
+      "height": 34
+    },
+    {
+      "path": "PNG/Extra/Default/icon_play_outline.png",
+      "bytes": 489,
+      "extension": ".png",
+      "width": 34,
+      "height": 38
+    },
+    {
+      "path": "PNG/Extra/Default/icon_repeat_dark.png",
+      "bytes": 435,
+      "extension": ".png",
+      "width": 41,
+      "height": 36
+    },
+    {
+      "path": "PNG/Extra/Default/icon_repeat_light.png",
+      "bytes": 435,
+      "extension": ".png",
+      "width": 41,
+      "height": 36
+    },
+    {
+      "path": "PNG/Extra/Default/icon_repeat_outline.png",
+      "bytes": 694,
+      "extension": ".png",
+      "width": 45,
+      "height": 40
+    },
+    {
+      "path": "PNG/Extra/Default/input_outline_rectangle.png",
+      "bytes": 344,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/input_outline_square.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/input_rectangle.png",
+      "bytes": 355,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Default/input_square.png",
+      "bytes": 319,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Extra/Double/button_rectangle_depth_line.png",
+      "bytes": 791,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/button_rectangle_line.png",
+      "bytes": 670,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/button_round_depth_line.png",
+      "bytes": 2793,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/button_round_line.png",
+      "bytes": 2208,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/button_square_depth_line.png",
+      "bytes": 661,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/button_square_line.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/divider.png",
+      "bytes": 108,
+      "extension": ".png",
+      "width": 128,
+      "height": 8
+    },
+    {
+      "path": "PNG/Extra/Double/divider_edges.png",
+      "bytes": 163,
+      "extension": ".png",
+      "width": 128,
+      "height": 8
+    },
+    {
+      "path": "PNG/Extra/Double/icon_arrow_down_dark.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 68,
+      "height": 44
+    },
+    {
+      "path": "PNG/Extra/Double/icon_arrow_down_light.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 68,
+      "height": 44
+    },
+    {
+      "path": "PNG/Extra/Double/icon_arrow_down_outline.png",
+      "bytes": 592,
+      "extension": ".png",
+      "width": 76,
+      "height": 52
+    },
+    {
+      "path": "PNG/Extra/Double/icon_arrow_up_dark.png",
+      "bytes": 404,
+      "extension": ".png",
+      "width": 68,
+      "height": 44
+    },
+    {
+      "path": "PNG/Extra/Double/icon_arrow_up_light.png",
+      "bytes": 404,
+      "extension": ".png",
+      "width": 68,
+      "height": 44
+    },
+    {
+      "path": "PNG/Extra/Double/icon_arrow_up_outline.png",
+      "bytes": 561,
+      "extension": ".png",
+      "width": 76,
+      "height": 52
+    },
+    {
+      "path": "PNG/Extra/Double/icon_play_dark.png",
+      "bytes": 489,
+      "extension": ".png",
+      "width": 60,
+      "height": 68
+    },
+    {
+      "path": "PNG/Extra/Double/icon_play_light.png",
+      "bytes": 489,
+      "extension": ".png",
+      "width": 60,
+      "height": 68
+    },
+    {
+      "path": "PNG/Extra/Double/icon_play_outline.png",
+      "bytes": 832,
+      "extension": ".png",
+      "width": 68,
+      "height": 76
+    },
+    {
+      "path": "PNG/Extra/Double/icon_repeat_dark.png",
+      "bytes": 733,
+      "extension": ".png",
+      "width": 82,
+      "height": 72
+    },
+    {
+      "path": "PNG/Extra/Double/icon_repeat_light.png",
+      "bytes": 733,
+      "extension": ".png",
+      "width": 82,
+      "height": 72
+    },
+    {
+      "path": "PNG/Extra/Double/icon_repeat_outline.png",
+      "bytes": 1286,
+      "extension": ".png",
+      "width": 90,
+      "height": 80
+    },
+    {
+      "path": "PNG/Extra/Double/input_outline_rectangle.png",
+      "bytes": 645,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/input_outline_square.png",
+      "bytes": 528,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/input_rectangle.png",
+      "bytes": 680,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Extra/Double/input_square.png",
+      "bytes": 563,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_e.png",
+      "bytes": 422,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_e_small.png",
+      "bytes": 378,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_n.png",
+      "bytes": 391,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_n_small.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_s.png",
+      "bytes": 414,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_s_small.png",
+      "bytes": 332,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_w.png",
+      "bytes": 402,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_basic_w_small.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_e.png",
+      "bytes": 566,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_e_small.png",
+      "bytes": 459,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_n.png",
+      "bytes": 511,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_n_small.png",
+      "bytes": 405,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_s.png",
+      "bytes": 530,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_s_small.png",
+      "bytes": 424,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_w.png",
+      "bytes": 562,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/arrow_decorative_w_small.png",
+      "bytes": 484,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_border.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_depth_border.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_depth_flat.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_depth_gloss.png",
+      "bytes": 373,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_depth_gradient.png",
+      "bytes": 570,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_depth_line.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_flat.png",
+      "bytes": 314,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_gloss.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_gradient.png",
+      "bytes": 514,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_rectangle_line.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_border.png",
+      "bytes": 1487,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_depth_border.png",
+      "bytes": 1793,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_depth_flat.png",
+      "bytes": 1301,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_depth_gloss.png",
+      "bytes": 1209,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_depth_gradient.png",
+      "bytes": 1438,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_depth_line.png",
+      "bytes": 1690,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_flat.png",
+      "bytes": 1023,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_gloss.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_gradient.png",
+      "bytes": 1165,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_round_line.png",
+      "bytes": 1413,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_border.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_depth_border.png",
+      "bytes": 375,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_depth_flat.png",
+      "bytes": 355,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_depth_gloss.png",
+      "bytes": 337,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_depth_gradient.png",
+      "bytes": 544,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_depth_line.png",
+      "bytes": 374,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_flat.png",
+      "bytes": 286,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_gloss.png",
+      "bytes": 268,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_gradient.png",
+      "bytes": 488,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/button_square_line.png",
+      "bytes": 304,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Default/check_round_color.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_round_grey.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_round_grey_circle.png",
+      "bytes": 774,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_round_round_circle.png",
+      "bytes": 772,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_color.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_color_checkmark.png",
+      "bytes": 555,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_color_cross.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_color_square.png",
+      "bytes": 319,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_grey.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_grey_checkmark.png",
+      "bytes": 559,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_grey_cross.png",
+      "bytes": 539,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/check_square_grey_square.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/icon_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Green/Default/icon_circle.png",
+      "bytes": 312,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/icon_cross.png",
+      "bytes": 350,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Green/Default/icon_outline_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Green/Default/icon_outline_circle.png",
+      "bytes": 312,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/icon_outline_cross.png",
+      "bytes": 351,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Green/Default/icon_outline_square.png",
+      "bytes": 135,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/icon_square.png",
+      "bytes": 137,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_hangle.png",
+      "bytes": 295,
+      "extension": ".png",
+      "width": 24,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/slide_horizontal_color.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_horizontal_color_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_horizontal_color_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_horizontal_grey.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_horizontal_grey_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_horizontal_grey_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_vertical_color.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Green/Default/slide_vertical_color_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_vertical_color_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/slide_vertical_grey.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Green/Default/slide_vertical_grey_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Green/Default/slide_vertical_grey_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Default/star.png",
+      "bytes": 1523,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Green/Default/star_outline.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Green/Default/star_outline_depth.png",
+      "bytes": 1168,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_e.png",
+      "bytes": 637,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_e_small.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_n.png",
+      "bytes": 623,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_n_small.png",
+      "bytes": 472,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_s.png",
+      "bytes": 694,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_s_small.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_w.png",
+      "bytes": 639,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_basic_w_small.png",
+      "bytes": 550,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_e.png",
+      "bytes": 860,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_e_small.png",
+      "bytes": 697,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_n.png",
+      "bytes": 880,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_n_small.png",
+      "bytes": 649,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_s.png",
+      "bytes": 951,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_s_small.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_w.png",
+      "bytes": 901,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/arrow_decorative_w_small.png",
+      "bytes": 721,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_border.png",
+      "bytes": 693,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_depth_border.png",
+      "bytes": 821,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_depth_flat.png",
+      "bytes": 785,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_depth_gloss.png",
+      "bytes": 748,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_depth_gradient.png",
+      "bytes": 1056,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_depth_line.png",
+      "bytes": 817,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_flat.png",
+      "bytes": 660,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_gloss.png",
+      "bytes": 623,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_gradient.png",
+      "bytes": 959,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_rectangle_line.png",
+      "bytes": 688,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_border.png",
+      "bytes": 2794,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_depth_border.png",
+      "bytes": 3367,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_depth_flat.png",
+      "bytes": 2476,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_depth_gloss.png",
+      "bytes": 2263,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_depth_gradient.png",
+      "bytes": 2661,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_depth_line.png",
+      "bytes": 3231,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_flat.png",
+      "bytes": 1863,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_gloss.png",
+      "bytes": 1735,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_gradient.png",
+      "bytes": 2149,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_round_line.png",
+      "bytes": 2669,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_border.png",
+      "bytes": 544,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_depth_border.png",
+      "bytes": 685,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_depth_flat.png",
+      "bytes": 652,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_depth_gloss.png",
+      "bytes": 630,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_depth_gradient.png",
+      "bytes": 926,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_depth_line.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_flat.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_gloss.png",
+      "bytes": 502,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_gradient.png",
+      "bytes": 814,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/button_square_line.png",
+      "bytes": 541,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Green/Double/check_round_color.png",
+      "bytes": 1040,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_round_grey.png",
+      "bytes": 1041,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_round_grey_circle.png",
+      "bytes": 1386,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_round_round_circle.png",
+      "bytes": 1382,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_color.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_color_checkmark.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_color_cross.png",
+      "bytes": 907,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_color_square.png",
+      "bytes": 536,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_grey.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_grey_checkmark.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_grey_cross.png",
+      "bytes": 908,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/check_square_grey_square.png",
+      "bytes": 538,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/icon_checkmark.png",
+      "bytes": 585,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Green/Double/icon_circle.png",
+      "bytes": 465,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/icon_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Green/Double/icon_outline_checkmark.png",
+      "bytes": 585,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Green/Double/icon_outline_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/icon_outline_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Green/Double/icon_outline_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/icon_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_hangle.png",
+      "bytes": 440,
+      "extension": ".png",
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/slide_horizontal_color.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_horizontal_color_section.png",
+      "bytes": 431,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_horizontal_color_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_horizontal_grey.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_horizontal_grey_section.png",
+      "bytes": 430,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_horizontal_grey_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_vertical_color.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Green/Double/slide_vertical_color_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_vertical_color_section_wide.png",
+      "bytes": 474,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/slide_vertical_grey.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Green/Double/slide_vertical_grey_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Green/Double/slide_vertical_grey_section_wide.png",
+      "bytes": 473,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Green/Double/star.png",
+      "bytes": 2855,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Green/Double/star_outline.png",
+      "bytes": 1800,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Green/Double/star_outline_depth.png",
+      "bytes": 2141,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_e.png",
+      "bytes": 422,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_e_small.png",
+      "bytes": 378,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_n.png",
+      "bytes": 388,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_n_small.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_s.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_s_small.png",
+      "bytes": 332,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_w.png",
+      "bytes": 402,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_basic_w_small.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_e.png",
+      "bytes": 563,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_e_small.png",
+      "bytes": 455,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_n.png",
+      "bytes": 511,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_n_small.png",
+      "bytes": 402,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_s.png",
+      "bytes": 530,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_s_small.png",
+      "bytes": 424,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_w.png",
+      "bytes": 559,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/arrow_decorative_w_small.png",
+      "bytes": 479,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_border.png",
+      "bytes": 335,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_depth_border.png",
+      "bytes": 408,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_depth_flat.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_depth_gloss.png",
+      "bytes": 373,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_depth_gradient.png",
+      "bytes": 623,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_depth_line.png",
+      "bytes": 409,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_flat.png",
+      "bytes": 315,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_gloss.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_gradient.png",
+      "bytes": 574,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_rectangle_line.png",
+      "bytes": 335,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_border.png",
+      "bytes": 1280,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_depth_border.png",
+      "bytes": 1580,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_depth_flat.png",
+      "bytes": 1295,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_depth_gloss.png",
+      "bytes": 1206,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_depth_gradient.png",
+      "bytes": 1516,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_depth_line.png",
+      "bytes": 1681,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_flat.png",
+      "bytes": 1018,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_gloss.png",
+      "bytes": 953,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_gradient.png",
+      "bytes": 1229,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_round_line.png",
+      "bytes": 1401,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_border.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_depth_border.png",
+      "bytes": 373,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_depth_flat.png",
+      "bytes": 355,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_depth_gloss.png",
+      "bytes": 337,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_depth_gradient.png",
+      "bytes": 596,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_depth_line.png",
+      "bytes": 372,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_flat.png",
+      "bytes": 286,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_gloss.png",
+      "bytes": 268,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_gradient.png",
+      "bytes": 536,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/button_square_line.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Default/check_round_color.png",
+      "bytes": 573,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_round_grey.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_round_grey_circle.png",
+      "bytes": 771,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_round_round_circle.png",
+      "bytes": 672,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_color.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_color_checkmark.png",
+      "bytes": 518,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_color_cross.png",
+      "bytes": 511,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_color_square.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_grey.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_grey_checkmark.png",
+      "bytes": 556,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_grey_cross.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/check_square_grey_square.png",
+      "bytes": 319,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/icon_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Grey/Default/icon_circle.png",
+      "bytes": 313,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/icon_cross.png",
+      "bytes": 350,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Grey/Default/icon_outline_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Grey/Default/icon_outline_circle.png",
+      "bytes": 313,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/icon_outline_cross.png",
+      "bytes": 350,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Grey/Default/icon_outline_square.png",
+      "bytes": 135,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/icon_square.png",
+      "bytes": 142,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_hangle.png",
+      "bytes": 295,
+      "extension": ".png",
+      "width": 24,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/slide_horizontal_color.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_horizontal_color_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_horizontal_color_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_horizontal_grey.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_horizontal_grey_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_horizontal_grey_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_vertical_color.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Grey/Default/slide_vertical_color_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_vertical_color_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/slide_vertical_grey.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Grey/Default/slide_vertical_grey_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Grey/Default/slide_vertical_grey_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Default/star.png",
+      "bytes": 1566,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Grey/Default/star_outline.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Grey/Default/star_outline_depth.png",
+      "bytes": 1168,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_e.png",
+      "bytes": 637,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_e_small.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_n.png",
+      "bytes": 622,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_n_small.png",
+      "bytes": 471,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_s.png",
+      "bytes": 694,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_s_small.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_w.png",
+      "bytes": 635,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_basic_w_small.png",
+      "bytes": 549,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_e.png",
+      "bytes": 854,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_e_small.png",
+      "bytes": 693,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_n.png",
+      "bytes": 876,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_n_small.png",
+      "bytes": 649,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_s.png",
+      "bytes": 948,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_s_small.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_w.png",
+      "bytes": 897,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/arrow_decorative_w_small.png",
+      "bytes": 718,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_border.png",
+      "bytes": 691,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_depth_border.png",
+      "bytes": 818,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_depth_flat.png",
+      "bytes": 786,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_depth_gloss.png",
+      "bytes": 748,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_depth_gradient.png",
+      "bytes": 1131,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_depth_line.png",
+      "bytes": 818,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_flat.png",
+      "bytes": 660,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_gloss.png",
+      "bytes": 625,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_gradient.png",
+      "bytes": 1046,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_rectangle_line.png",
+      "bytes": 690,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_border.png",
+      "bytes": 2488,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_depth_border.png",
+      "bytes": 3052,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_depth_flat.png",
+      "bytes": 2470,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_depth_gloss.png",
+      "bytes": 2258,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_depth_gradient.png",
+      "bytes": 2754,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_depth_line.png",
+      "bytes": 3224,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_flat.png",
+      "bytes": 1857,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_gloss.png",
+      "bytes": 1728,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_gradient.png",
+      "bytes": 2238,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_round_line.png",
+      "bytes": 2663,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_border.png",
+      "bytes": 542,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_depth_border.png",
+      "bytes": 679,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_depth_flat.png",
+      "bytes": 652,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_depth_gloss.png",
+      "bytes": 629,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_depth_gradient.png",
+      "bytes": 1017,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_depth_line.png",
+      "bytes": 682,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_flat.png",
+      "bytes": 524,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_gloss.png",
+      "bytes": 503,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_gradient.png",
+      "bytes": 921,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/button_square_line.png",
+      "bytes": 540,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Grey/Double/check_round_color.png",
+      "bytes": 1034,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_round_grey.png",
+      "bytes": 1041,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_round_grey_circle.png",
+      "bytes": 1382,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_round_round_circle.png",
+      "bytes": 1213,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_color.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_color_checkmark.png",
+      "bytes": 890,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_color_cross.png",
+      "bytes": 841,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_color_square.png",
+      "bytes": 532,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_grey.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_grey_checkmark.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_grey_cross.png",
+      "bytes": 907,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/check_square_grey_square.png",
+      "bytes": 536,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/icon_checkmark.png",
+      "bytes": 585,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Grey/Double/icon_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/icon_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Grey/Double/icon_outline_checkmark.png",
+      "bytes": 584,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Grey/Double/icon_outline_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/icon_outline_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Grey/Double/icon_outline_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/icon_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_hangle.png",
+      "bytes": 441,
+      "extension": ".png",
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/slide_horizontal_color.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_horizontal_color_section.png",
+      "bytes": 430,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_horizontal_color_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_horizontal_grey.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_horizontal_grey_section.png",
+      "bytes": 430,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_horizontal_grey_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_vertical_color.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Grey/Double/slide_vertical_color_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_vertical_color_section_wide.png",
+      "bytes": 474,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/slide_vertical_grey.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Grey/Double/slide_vertical_grey_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Grey/Double/slide_vertical_grey_section_wide.png",
+      "bytes": 473,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Grey/Double/star.png",
+      "bytes": 2871,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Grey/Double/star_outline.png",
+      "bytes": 1800,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Grey/Double/star_outline_depth.png",
+      "bytes": 2141,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_e.png",
+      "bytes": 422,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_e_small.png",
+      "bytes": 378,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_n.png",
+      "bytes": 391,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_n_small.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_s.png",
+      "bytes": 414,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_s_small.png",
+      "bytes": 332,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_w.png",
+      "bytes": 402,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_basic_w_small.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_e.png",
+      "bytes": 566,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_e_small.png",
+      "bytes": 459,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_n.png",
+      "bytes": 511,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_n_small.png",
+      "bytes": 405,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_s.png",
+      "bytes": 530,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_s_small.png",
+      "bytes": 424,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_w.png",
+      "bytes": 562,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/arrow_decorative_w_small.png",
+      "bytes": 484,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_border.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_depth_border.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_depth_flat.png",
+      "bytes": 384,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_depth_gloss.png",
+      "bytes": 373,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_depth_gradient.png",
+      "bytes": 642,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_depth_line.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_flat.png",
+      "bytes": 315,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_gloss.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_gradient.png",
+      "bytes": 590,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_rectangle_line.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_border.png",
+      "bytes": 1487,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_depth_border.png",
+      "bytes": 1793,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_depth_flat.png",
+      "bytes": 1301,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_depth_gloss.png",
+      "bytes": 1210,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_depth_gradient.png",
+      "bytes": 1571,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_depth_line.png",
+      "bytes": 1690,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_flat.png",
+      "bytes": 1023,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_gloss.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_gradient.png",
+      "bytes": 1268,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_round_line.png",
+      "bytes": 1413,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_border.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_depth_border.png",
+      "bytes": 375,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_depth_flat.png",
+      "bytes": 355,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_depth_gloss.png",
+      "bytes": 337,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_depth_gradient.png",
+      "bytes": 615,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_depth_line.png",
+      "bytes": 374,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_flat.png",
+      "bytes": 286,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_gloss.png",
+      "bytes": 268,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_gradient.png",
+      "bytes": 512,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/button_square_line.png",
+      "bytes": 304,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Default/check_round_color.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_round_grey.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_round_grey_circle.png",
+      "bytes": 774,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_round_round_circle.png",
+      "bytes": 771,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_color.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_color_checkmark.png",
+      "bytes": 556,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_color_cross.png",
+      "bytes": 534,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_color_square.png",
+      "bytes": 319,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_grey.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_grey_checkmark.png",
+      "bytes": 559,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_grey_cross.png",
+      "bytes": 539,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/check_square_grey_square.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/icon_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Red/Default/icon_circle.png",
+      "bytes": 313,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/icon_cross.png",
+      "bytes": 350,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Red/Default/icon_outline_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Red/Default/icon_outline_circle.png",
+      "bytes": 313,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/icon_outline_cross.png",
+      "bytes": 352,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Red/Default/icon_outline_square.png",
+      "bytes": 132,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/icon_square.png",
+      "bytes": 137,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_hangle.png",
+      "bytes": 297,
+      "extension": ".png",
+      "width": 24,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/slide_horizontal_color.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_horizontal_color_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_horizontal_color_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_horizontal_grey.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_horizontal_grey_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_horizontal_grey_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_vertical_color.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Red/Default/slide_vertical_color_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_vertical_color_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/slide_vertical_grey.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Red/Default/slide_vertical_grey_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Red/Default/slide_vertical_grey_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Default/star.png",
+      "bytes": 1555,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Red/Default/star_outline.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Red/Default/star_outline_depth.png",
+      "bytes": 1168,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_e.png",
+      "bytes": 637,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_e_small.png",
+      "bytes": 522,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_n.png",
+      "bytes": 622,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_n_small.png",
+      "bytes": 472,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_s.png",
+      "bytes": 694,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_s_small.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_w.png",
+      "bytes": 639,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_basic_w_small.png",
+      "bytes": 550,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_e.png",
+      "bytes": 858,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_e_small.png",
+      "bytes": 697,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_n.png",
+      "bytes": 880,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_n_small.png",
+      "bytes": 649,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_s.png",
+      "bytes": 951,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_s_small.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_w.png",
+      "bytes": 901,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/arrow_decorative_w_small.png",
+      "bytes": 721,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_border.png",
+      "bytes": 693,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_depth_border.png",
+      "bytes": 821,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_depth_flat.png",
+      "bytes": 785,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_depth_gloss.png",
+      "bytes": 747,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_depth_gradient.png",
+      "bytes": 1137,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_depth_line.png",
+      "bytes": 817,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_flat.png",
+      "bytes": 660,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_gloss.png",
+      "bytes": 623,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_gradient.png",
+      "bytes": 1037,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_rectangle_line.png",
+      "bytes": 688,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_border.png",
+      "bytes": 2794,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_depth_border.png",
+      "bytes": 3366,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_depth_flat.png",
+      "bytes": 2476,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_depth_gloss.png",
+      "bytes": 2264,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_depth_gradient.png",
+      "bytes": 2842,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_depth_line.png",
+      "bytes": 3231,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_flat.png",
+      "bytes": 1863,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_gloss.png",
+      "bytes": 1734,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_gradient.png",
+      "bytes": 2355,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_round_line.png",
+      "bytes": 2669,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_border.png",
+      "bytes": 544,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_depth_border.png",
+      "bytes": 685,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_depth_flat.png",
+      "bytes": 652,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_depth_gloss.png",
+      "bytes": 629,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_depth_gradient.png",
+      "bytes": 1021,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_depth_line.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_flat.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_gloss.png",
+      "bytes": 502,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_gradient.png",
+      "bytes": 914,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/button_square_line.png",
+      "bytes": 542,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Red/Double/check_round_color.png",
+      "bytes": 1041,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_round_grey.png",
+      "bytes": 1041,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_round_grey_circle.png",
+      "bytes": 1387,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_round_round_circle.png",
+      "bytes": 1383,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_color.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_color_checkmark.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_color_cross.png",
+      "bytes": 908,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_color_square.png",
+      "bytes": 535,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_grey.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_grey_checkmark.png",
+      "bytes": 959,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_grey_cross.png",
+      "bytes": 909,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/check_square_grey_square.png",
+      "bytes": 538,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/icon_checkmark.png",
+      "bytes": 584,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Red/Double/icon_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/icon_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Red/Double/icon_outline_checkmark.png",
+      "bytes": 585,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Red/Double/icon_outline_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/icon_outline_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Red/Double/icon_outline_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/icon_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_hangle.png",
+      "bytes": 440,
+      "extension": ".png",
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/slide_horizontal_color.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_horizontal_color_section.png",
+      "bytes": 432,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_horizontal_color_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_horizontal_grey.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_horizontal_grey_section.png",
+      "bytes": 430,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_horizontal_grey_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_vertical_color.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Red/Double/slide_vertical_color_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_vertical_color_section_wide.png",
+      "bytes": 473,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/slide_vertical_grey.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Red/Double/slide_vertical_grey_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Red/Double/slide_vertical_grey_section_wide.png",
+      "bytes": 473,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Red/Double/star.png",
+      "bytes": 2860,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Red/Double/star_outline.png",
+      "bytes": 1800,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Red/Double/star_outline_depth.png",
+      "bytes": 2141,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_e.png",
+      "bytes": 422,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_e_small.png",
+      "bytes": 378,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_n.png",
+      "bytes": 391,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_n_small.png",
+      "bytes": 302,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_s.png",
+      "bytes": 414,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_s_small.png",
+      "bytes": 332,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_w.png",
+      "bytes": 402,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_basic_w_small.png",
+      "bytes": 399,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_e.png",
+      "bytes": 566,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_e_small.png",
+      "bytes": 459,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_n.png",
+      "bytes": 511,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_n_small.png",
+      "bytes": 404,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_s.png",
+      "bytes": 530,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_s_small.png",
+      "bytes": 424,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_w.png",
+      "bytes": 562,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/arrow_decorative_w_small.png",
+      "bytes": 483,
+      "extension": ".png",
+      "width": 24,
+      "height": 24
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_border.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_depth_border.png",
+      "bytes": 412,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_depth_flat.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_depth_gloss.png",
+      "bytes": 373,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_depth_gradient.png",
+      "bytes": 642,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_depth_line.png",
+      "bytes": 411,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_flat.png",
+      "bytes": 315,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_gloss.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_gradient.png",
+      "bytes": 590,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_rectangle_line.png",
+      "bytes": 338,
+      "extension": ".png",
+      "width": 192,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_border.png",
+      "bytes": 1488,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_depth_border.png",
+      "bytes": 1791,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_depth_flat.png",
+      "bytes": 1300,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_depth_gloss.png",
+      "bytes": 1209,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_depth_gradient.png",
+      "bytes": 1646,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_depth_line.png",
+      "bytes": 1690,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_flat.png",
+      "bytes": 1023,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_gloss.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_gradient.png",
+      "bytes": 1354,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_round_line.png",
+      "bytes": 1413,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_border.png",
+      "bytes": 306,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_depth_border.png",
+      "bytes": 375,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_depth_flat.png",
+      "bytes": 355,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_depth_gloss.png",
+      "bytes": 337,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_depth_gradient.png",
+      "bytes": 615,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_depth_line.png",
+      "bytes": 374,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_flat.png",
+      "bytes": 286,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_gloss.png",
+      "bytes": 268,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_gradient.png",
+      "bytes": 532,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/button_square_line.png",
+      "bytes": 304,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Default/check_round_color.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_round_grey.png",
+      "bytes": 579,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_round_grey_circle.png",
+      "bytes": 774,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_round_round_circle.png",
+      "bytes": 743,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_color.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_color_checkmark.png",
+      "bytes": 498,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_color_cross.png",
+      "bytes": 501,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_color_square.png",
+      "bytes": 318,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_grey.png",
+      "bytes": 280,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_grey_checkmark.png",
+      "bytes": 559,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_grey_cross.png",
+      "bytes": 539,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/check_square_grey_square.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_circle.png",
+      "bytes": 313,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_cross.png",
+      "bytes": 350,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_outline_checkmark.png",
+      "bytes": 377,
+      "extension": ".png",
+      "width": 20,
+      "height": 18
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_outline_circle.png",
+      "bytes": 312,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_outline_cross.png",
+      "bytes": 351,
+      "extension": ".png",
+      "width": 18,
+      "height": 18
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_outline_square.png",
+      "bytes": 128,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/icon_square.png",
+      "bytes": 130,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_hangle.png",
+      "bytes": 297,
+      "extension": ".png",
+      "width": 24,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_horizontal_color.png",
+      "bytes": 382,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_horizontal_color_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_horizontal_color_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_horizontal_grey.png",
+      "bytes": 383,
+      "extension": ".png",
+      "width": 96,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_horizontal_grey_section.png",
+      "bytes": 321,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_horizontal_grey_section_wide.png",
+      "bytes": 336,
+      "extension": ".png",
+      "width": 32,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_vertical_color.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_vertical_color_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_vertical_color_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_vertical_grey.png",
+      "bytes": 379,
+      "extension": ".png",
+      "width": 16,
+      "height": 96
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_vertical_grey_section.png",
+      "bytes": 308,
+      "extension": ".png",
+      "width": 16,
+      "height": 16
+    },
+    {
+      "path": "PNG/Yellow/Default/slide_vertical_grey_section_wide.png",
+      "bytes": 316,
+      "extension": ".png",
+      "width": 16,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Default/star.png",
+      "bytes": 1593,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Yellow/Default/star_outline.png",
+      "bytes": 955,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Yellow/Default/star_outline_depth.png",
+      "bytes": 1168,
+      "extension": ".png",
+      "width": 64,
+      "height": 60
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_e.png",
+      "bytes": 638,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_e_small.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_n.png",
+      "bytes": 622,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_n_small.png",
+      "bytes": 472,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_s.png",
+      "bytes": 694,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_s_small.png",
+      "bytes": 533,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_w.png",
+      "bytes": 639,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_basic_w_small.png",
+      "bytes": 550,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_e.png",
+      "bytes": 860,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_e_small.png",
+      "bytes": 697,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_n.png",
+      "bytes": 880,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_n_small.png",
+      "bytes": 649,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_s.png",
+      "bytes": 951,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_s_small.png",
+      "bytes": 684,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_w.png",
+      "bytes": 901,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/arrow_decorative_w_small.png",
+      "bytes": 721,
+      "extension": ".png",
+      "width": 48,
+      "height": 48
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_border.png",
+      "bytes": 693,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_depth_border.png",
+      "bytes": 820,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_depth_flat.png",
+      "bytes": 784,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_depth_gloss.png",
+      "bytes": 748,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_depth_gradient.png",
+      "bytes": 1300,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_depth_line.png",
+      "bytes": 817,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_flat.png",
+      "bytes": 660,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_gloss.png",
+      "bytes": 623,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_gradient.png",
+      "bytes": 1221,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_rectangle_line.png",
+      "bytes": 689,
+      "extension": ".png",
+      "width": 384,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_border.png",
+      "bytes": 2794,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_depth_border.png",
+      "bytes": 3366,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_depth_flat.png",
+      "bytes": 2476,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_depth_gloss.png",
+      "bytes": 2263,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_depth_gradient.png",
+      "bytes": 3044,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_depth_line.png",
+      "bytes": 3231,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_flat.png",
+      "bytes": 1863,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_gloss.png",
+      "bytes": 1734,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_gradient.png",
+      "bytes": 2551,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_round_line.png",
+      "bytes": 2669,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_border.png",
+      "bytes": 544,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_depth_border.png",
+      "bytes": 685,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_depth_flat.png",
+      "bytes": 652,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_depth_gloss.png",
+      "bytes": 630,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_depth_gradient.png",
+      "bytes": 1196,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_depth_line.png",
+      "bytes": 683,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_flat.png",
+      "bytes": 523,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_gloss.png",
+      "bytes": 502,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_gradient.png",
+      "bytes": 1111,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/button_square_line.png",
+      "bytes": 542,
+      "extension": ".png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "path": "PNG/Yellow/Double/check_round_color.png",
+      "bytes": 1040,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_round_grey.png",
+      "bytes": 1041,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_round_grey_circle.png",
+      "bytes": 1387,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_round_round_circle.png",
+      "bytes": 1316,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_color.png",
+      "bytes": 465,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_color_checkmark.png",
+      "bytes": 871,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_color_cross.png",
+      "bytes": 849,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_color_square.png",
+      "bytes": 535,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_grey.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_grey_checkmark.png",
+      "bytes": 958,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_grey_cross.png",
+      "bytes": 908,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/check_square_grey_square.png",
+      "bytes": 539,
+      "extension": ".png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_checkmark.png",
+      "bytes": 585,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_outline_checkmark.png",
+      "bytes": 583,
+      "extension": ".png",
+      "width": 40,
+      "height": 36
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_outline_circle.png",
+      "bytes": 466,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_outline_cross.png",
+      "bytes": 516,
+      "extension": ".png",
+      "width": 36,
+      "height": 36
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_outline_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/icon_square.png",
+      "bytes": 183,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_hangle.png",
+      "bytes": 440,
+      "extension": ".png",
+      "width": 48,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_horizontal_color.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_horizontal_color_section.png",
+      "bytes": 432,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_horizontal_color_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_horizontal_grey.png",
+      "bytes": 614,
+      "extension": ".png",
+      "width": 192,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_horizontal_grey_section.png",
+      "bytes": 430,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_horizontal_grey_section_wide.png",
+      "bytes": 439,
+      "extension": ".png",
+      "width": 64,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_vertical_color.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_vertical_color_section.png",
+      "bytes": 460,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_vertical_color_section_wide.png",
+      "bytes": 474,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_vertical_grey.png",
+      "bytes": 611,
+      "extension": ".png",
+      "width": 32,
+      "height": 192
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_vertical_grey_section.png",
+      "bytes": 461,
+      "extension": ".png",
+      "width": 32,
+      "height": 32
+    },
+    {
+      "path": "PNG/Yellow/Double/slide_vertical_grey_section_wide.png",
+      "bytes": 473,
+      "extension": ".png",
+      "width": 32,
+      "height": 64
+    },
+    {
+      "path": "PNG/Yellow/Double/star.png",
+      "bytes": 2900,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Yellow/Double/star_outline.png",
+      "bytes": 1800,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "PNG/Yellow/Double/star_outline_depth.png",
+      "bytes": 2141,
+      "extension": ".png",
+      "width": 128,
+      "height": 120
+    },
+    {
+      "path": "Preview.png",
+      "bytes": 28908,
+      "extension": ".png",
+      "width": 918,
+      "height": 515
+    },
+    {
+      "path": "Sample.png",
+      "bytes": 30629,
+      "extension": ".png",
+      "width": 918,
+      "height": 515
+    },
+    {
+      "path": "Sounds/click-a.ogg",
+      "bytes": 10945,
+      "extension": ".ogg"
+    },
+    {
+      "path": "Sounds/click-b.ogg",
+      "bytes": 6157,
+      "extension": ".ogg"
+    },
+    {
+      "path": "Sounds/switch-a.ogg",
+      "bytes": 9433,
+      "extension": ".ogg"
+    },
+    {
+      "path": "Sounds/switch-b.ogg",
+      "bytes": 10138,
+      "extension": ".ogg"
+    },
+    {
+      "path": "Sounds/tap-a.ogg",
+      "bytes": 7043,
+      "extension": ".ogg"
+    },
+    {
+      "path": "Sounds/tap-b.ogg",
+      "bytes": 6119,
+      "extension": ".ogg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_e.svg",
+      "bytes": 1355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_e_small.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_n.svg",
+      "bytes": 1458,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_n_small.svg",
+      "bytes": 1084,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_s.svg",
+      "bytes": 1432,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_s_small.svg",
+      "bytes": 1069,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_w.svg",
+      "bytes": 1401,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_basic_w_small.svg",
+      "bytes": 1012,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_e.svg",
+      "bytes": 2480,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_e_small.svg",
+      "bytes": 1535,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_n.svg",
+      "bytes": 2598,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_n_small.svg",
+      "bytes": 1704,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_s.svg",
+      "bytes": 2472,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_s_small.svg",
+      "bytes": 1587,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_w.svg",
+      "bytes": 2557,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/arrow_decorative_w_small.svg",
+      "bytes": 1604,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_border.svg",
+      "bytes": 1100,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_depth_border.svg",
+      "bytes": 2326,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_depth_flat.svg",
+      "bytes": 1002,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_depth_gloss.svg",
+      "bytes": 886,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_depth_gradient.svg",
+      "bytes": 1312,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_depth_line.svg",
+      "bytes": 2281,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_flat.svg",
+      "bytes": 854,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_gloss.svg",
+      "bytes": 738,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_gradient.svg",
+      "bytes": 1166,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_rectangle_line.svg",
+      "bytes": 1055,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_border.svg",
+      "bytes": 2301,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_depth_border.svg",
+      "bytes": 3078,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_depth_flat.svg",
+      "bytes": 1772,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_depth_gloss.svg",
+      "bytes": 1417,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_depth_gradient.svg",
+      "bytes": 2060,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_depth_line.svg",
+      "bytes": 3035,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_flat.svg",
+      "bytes": 1009,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_gloss.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_gradient.svg",
+      "bytes": 1474,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_round_line.svg",
+      "bytes": 1780,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_border.svg",
+      "bytes": 1074,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_depth_border.svg",
+      "bytes": 2211,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_depth_flat.svg",
+      "bytes": 1873,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_depth_gloss.svg",
+      "bytes": 837,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_depth_gradient.svg",
+      "bytes": 1298,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_depth_line.svg",
+      "bytes": 2166,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_flat.svg",
+      "bytes": 1207,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_gloss.svg",
+      "bytes": 1241,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_gradient.svg",
+      "bytes": 1987,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/button_square_line.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_round_color.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_round_grey.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_round_grey_circle.svg",
+      "bytes": 1659,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_round_round_circle.svg",
+      "bytes": 1661,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_color.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_color_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_color_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_color_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_grey.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_grey_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_grey_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/check_square_grey_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_circle.svg",
+      "bytes": 740,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_outline_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_outline_circle.svg",
+      "bytes": 748,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_outline_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_outline_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/icon_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_hangle.svg",
+      "bytes": 1202,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_horizontal_color.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_horizontal_color_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_horizontal_color_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_horizontal_grey.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_horizontal_grey_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_horizontal_grey_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_vertical_color.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_vertical_color_section.svg",
+      "bytes": 912,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_vertical_color_section_wide.svg",
+      "bytes": 910,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_vertical_grey.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_vertical_grey_section.svg",
+      "bytes": 911,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/slide_vertical_grey_section_wide.svg",
+      "bytes": 910,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/star.svg",
+      "bytes": 2465,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/star_outline.svg",
+      "bytes": 2717,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Blue/star_outline_depth.svg",
+      "bytes": 1322,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/button_rectangle_depth_line.svg",
+      "bytes": 1890,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/button_rectangle_line.svg",
+      "bytes": 938,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/button_round_depth_line.svg",
+      "bytes": 2314,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/button_round_line.svg",
+      "bytes": 1331,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/button_square_depth_line.svg",
+      "bytes": 1795,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/button_square_line.svg",
+      "bytes": 898,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/divider.svg",
+      "bytes": 275,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/divider_edges.svg",
+      "bytes": 273,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_arrow_down_dark.svg",
+      "bytes": 355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_arrow_down_light.svg",
+      "bytes": 355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_arrow_down_outline.svg",
+      "bytes": 837,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_arrow_up_dark.svg",
+      "bytes": 376,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_arrow_up_light.svg",
+      "bytes": 376,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_arrow_up_outline.svg",
+      "bytes": 927,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_play_dark.svg",
+      "bytes": 420,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_play_light.svg",
+      "bytes": 420,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_play_outline.svg",
+      "bytes": 1003,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_repeat_dark.svg",
+      "bytes": 816,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_repeat_light.svg",
+      "bytes": 816,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/icon_repeat_outline.svg",
+      "bytes": 2296,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/input_outline_rectangle.svg",
+      "bytes": 773,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/input_outline_square.svg",
+      "bytes": 763,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/input_rectangle.svg",
+      "bytes": 825,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Extra/input_square.svg",
+      "bytes": 786,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_e.svg",
+      "bytes": 1355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_e_small.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_n.svg",
+      "bytes": 1458,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_n_small.svg",
+      "bytes": 1084,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_s.svg",
+      "bytes": 1432,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_s_small.svg",
+      "bytes": 1069,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_w.svg",
+      "bytes": 1401,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_basic_w_small.svg",
+      "bytes": 1012,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_e.svg",
+      "bytes": 2480,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_e_small.svg",
+      "bytes": 1535,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_n.svg",
+      "bytes": 2598,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_n_small.svg",
+      "bytes": 1704,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_s.svg",
+      "bytes": 2472,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_s_small.svg",
+      "bytes": 1587,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_w.svg",
+      "bytes": 2557,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/arrow_decorative_w_small.svg",
+      "bytes": 1604,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_border.svg",
+      "bytes": 1100,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_depth_border.svg",
+      "bytes": 2326,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_depth_flat.svg",
+      "bytes": 1002,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_depth_gloss.svg",
+      "bytes": 886,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_depth_gradient.svg",
+      "bytes": 1317,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_depth_line.svg",
+      "bytes": 2281,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_flat.svg",
+      "bytes": 854,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_gloss.svg",
+      "bytes": 738,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_gradient.svg",
+      "bytes": 1167,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_rectangle_line.svg",
+      "bytes": 1055,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_border.svg",
+      "bytes": 2301,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_depth_border.svg",
+      "bytes": 3078,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_depth_flat.svg",
+      "bytes": 1772,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_depth_gloss.svg",
+      "bytes": 1417,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_depth_gradient.svg",
+      "bytes": 2063,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_depth_line.svg",
+      "bytes": 3035,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_flat.svg",
+      "bytes": 1009,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_gloss.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_gradient.svg",
+      "bytes": 1476,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_round_line.svg",
+      "bytes": 1780,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_border.svg",
+      "bytes": 1074,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_depth_border.svg",
+      "bytes": 2211,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_depth_flat.svg",
+      "bytes": 1872,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_depth_gloss.svg",
+      "bytes": 837,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_depth_gradient.svg",
+      "bytes": 1300,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_depth_line.svg",
+      "bytes": 2166,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_flat.svg",
+      "bytes": 1207,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_gloss.svg",
+      "bytes": 1241,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_gradient.svg",
+      "bytes": 1991,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/button_square_line.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_round_color.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_round_grey.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_round_grey_circle.svg",
+      "bytes": 1659,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_round_round_circle.svg",
+      "bytes": 1661,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_color.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_color_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_color_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_color_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_grey.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_grey_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_grey_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/check_square_grey_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_circle.svg",
+      "bytes": 740,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_outline_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_outline_circle.svg",
+      "bytes": 748,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_outline_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_outline_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/icon_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_hangle.svg",
+      "bytes": 1202,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_horizontal_color.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_horizontal_color_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_horizontal_color_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_horizontal_grey.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_horizontal_grey_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_horizontal_grey_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_vertical_color.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_vertical_color_section.svg",
+      "bytes": 911,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_vertical_color_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_vertical_grey.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_vertical_grey_section.svg",
+      "bytes": 912,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/slide_vertical_grey_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/star.svg",
+      "bytes": 2465,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/star_outline.svg",
+      "bytes": 2717,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Green/star_outline_depth.svg",
+      "bytes": 1322,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_e.svg",
+      "bytes": 1355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_e_small.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_n.svg",
+      "bytes": 1458,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_n_small.svg",
+      "bytes": 1084,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_s.svg",
+      "bytes": 1432,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_s_small.svg",
+      "bytes": 1069,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_w.svg",
+      "bytes": 1401,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_basic_w_small.svg",
+      "bytes": 1012,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_e.svg",
+      "bytes": 2480,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_e_small.svg",
+      "bytes": 1535,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_n.svg",
+      "bytes": 2598,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_n_small.svg",
+      "bytes": 1704,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_s.svg",
+      "bytes": 2472,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_s_small.svg",
+      "bytes": 1587,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_w.svg",
+      "bytes": 2557,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/arrow_decorative_w_small.svg",
+      "bytes": 1604,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_border.svg",
+      "bytes": 1010,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_depth_border.svg",
+      "bytes": 2236,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_depth_flat.svg",
+      "bytes": 1002,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_depth_gloss.svg",
+      "bytes": 886,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_depth_gradient.svg",
+      "bytes": 1316,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_depth_line.svg",
+      "bytes": 2236,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_flat.svg",
+      "bytes": 854,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_gloss.svg",
+      "bytes": 738,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_gradient.svg",
+      "bytes": 1168,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_rectangle_line.svg",
+      "bytes": 1010,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_border.svg",
+      "bytes": 2211,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_depth_border.svg",
+      "bytes": 2991,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_depth_flat.svg",
+      "bytes": 1772,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_depth_gloss.svg",
+      "bytes": 1417,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_depth_gradient.svg",
+      "bytes": 2063,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_depth_line.svg",
+      "bytes": 2988,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_flat.svg",
+      "bytes": 1009,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_gloss.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_gradient.svg",
+      "bytes": 1476,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_round_line.svg",
+      "bytes": 1745,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_border.svg",
+      "bytes": 984,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_depth_border.svg",
+      "bytes": 2121,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_depth_flat.svg",
+      "bytes": 1872,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_depth_gloss.svg",
+      "bytes": 837,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_depth_gradient.svg",
+      "bytes": 1302,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_depth_line.svg",
+      "bytes": 2121,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_flat.svg",
+      "bytes": 1207,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_gloss.svg",
+      "bytes": 1241,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_gradient.svg",
+      "bytes": 1992,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/button_square_line.svg",
+      "bytes": 984,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_round_color.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_round_grey.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_round_grey_circle.svg",
+      "bytes": 1659,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_round_round_circle.svg",
+      "bytes": 1661,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_color.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_color_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_color_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_color_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_grey.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_grey_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_grey_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/check_square_grey_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_circle.svg",
+      "bytes": 740,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_outline_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_outline_circle.svg",
+      "bytes": 748,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_outline_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_outline_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/icon_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_hangle.svg",
+      "bytes": 1202,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_horizontal_color.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_horizontal_color_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_horizontal_color_section_wide.svg",
+      "bytes": 919,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_horizontal_grey.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_horizontal_grey_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_horizontal_grey_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_vertical_color.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_vertical_color_section.svg",
+      "bytes": 912,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_vertical_color_section_wide.svg",
+      "bytes": 910,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_vertical_grey.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_vertical_grey_section.svg",
+      "bytes": 912,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/slide_vertical_grey_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/star.svg",
+      "bytes": 2465,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/star_outline.svg",
+      "bytes": 2717,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Grey/star_outline_depth.svg",
+      "bytes": 1322,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_e.svg",
+      "bytes": 1355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_e_small.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_n.svg",
+      "bytes": 1458,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_n_small.svg",
+      "bytes": 1084,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_s.svg",
+      "bytes": 1432,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_s_small.svg",
+      "bytes": 1069,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_w.svg",
+      "bytes": 1401,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_basic_w_small.svg",
+      "bytes": 1012,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_e.svg",
+      "bytes": 2480,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_e_small.svg",
+      "bytes": 1535,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_n.svg",
+      "bytes": 2598,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_n_small.svg",
+      "bytes": 1704,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_s.svg",
+      "bytes": 2472,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_s_small.svg",
+      "bytes": 1587,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_w.svg",
+      "bytes": 2557,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/arrow_decorative_w_small.svg",
+      "bytes": 1604,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_border.svg",
+      "bytes": 1100,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_depth_border.svg",
+      "bytes": 2326,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_depth_flat.svg",
+      "bytes": 1002,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_depth_gloss.svg",
+      "bytes": 886,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_depth_gradient.svg",
+      "bytes": 1316,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_depth_line.svg",
+      "bytes": 2281,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_flat.svg",
+      "bytes": 854,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_gloss.svg",
+      "bytes": 738,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_gradient.svg",
+      "bytes": 1168,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_rectangle_line.svg",
+      "bytes": 1055,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_border.svg",
+      "bytes": 2301,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_depth_border.svg",
+      "bytes": 3078,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_depth_flat.svg",
+      "bytes": 1772,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_depth_gloss.svg",
+      "bytes": 1417,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_depth_gradient.svg",
+      "bytes": 2063,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_depth_line.svg",
+      "bytes": 3035,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_flat.svg",
+      "bytes": 1009,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_gloss.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_gradient.svg",
+      "bytes": 1476,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_round_line.svg",
+      "bytes": 1780,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_border.svg",
+      "bytes": 1074,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_depth_border.svg",
+      "bytes": 2211,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_depth_flat.svg",
+      "bytes": 1872,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_depth_gloss.svg",
+      "bytes": 837,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_depth_gradient.svg",
+      "bytes": 1301,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_depth_line.svg",
+      "bytes": 2166,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_flat.svg",
+      "bytes": 1207,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_gloss.svg",
+      "bytes": 1241,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_gradient.svg",
+      "bytes": 1991,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/button_square_line.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_round_color.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_round_grey.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_round_grey_circle.svg",
+      "bytes": 1659,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_round_round_circle.svg",
+      "bytes": 1661,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_color.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_color_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_color_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_color_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_grey.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_grey_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_grey_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/check_square_grey_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_circle.svg",
+      "bytes": 740,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_outline_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_outline_circle.svg",
+      "bytes": 748,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_outline_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_outline_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/icon_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_hangle.svg",
+      "bytes": 1202,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_horizontal_color.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_horizontal_color_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_horizontal_color_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_horizontal_grey.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_horizontal_grey_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_horizontal_grey_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_vertical_color.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_vertical_color_section.svg",
+      "bytes": 911,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_vertical_color_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_vertical_grey.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_vertical_grey_section.svg",
+      "bytes": 912,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/slide_vertical_grey_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/star.svg",
+      "bytes": 2465,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/star_outline.svg",
+      "bytes": 2717,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Red/star_outline_depth.svg",
+      "bytes": 1322,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_e.svg",
+      "bytes": 1355,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_e_small.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_n.svg",
+      "bytes": 1458,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_n_small.svg",
+      "bytes": 1084,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_s.svg",
+      "bytes": 1432,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_s_small.svg",
+      "bytes": 1069,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_w.svg",
+      "bytes": 1401,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_basic_w_small.svg",
+      "bytes": 1012,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_e.svg",
+      "bytes": 2480,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_e_small.svg",
+      "bytes": 1535,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_n.svg",
+      "bytes": 2598,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_n_small.svg",
+      "bytes": 1704,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_s.svg",
+      "bytes": 2472,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_s_small.svg",
+      "bytes": 1587,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_w.svg",
+      "bytes": 2557,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/arrow_decorative_w_small.svg",
+      "bytes": 1604,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_border.svg",
+      "bytes": 1100,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_depth_border.svg",
+      "bytes": 2326,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_depth_flat.svg",
+      "bytes": 1002,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_depth_gloss.svg",
+      "bytes": 886,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_depth_gradient.svg",
+      "bytes": 1315,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_depth_line.svg",
+      "bytes": 2281,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_flat.svg",
+      "bytes": 854,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_gloss.svg",
+      "bytes": 738,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_gradient.svg",
+      "bytes": 1169,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_rectangle_line.svg",
+      "bytes": 1055,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_border.svg",
+      "bytes": 2301,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_depth_border.svg",
+      "bytes": 3078,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_depth_flat.svg",
+      "bytes": 1772,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_depth_gloss.svg",
+      "bytes": 1417,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_depth_gradient.svg",
+      "bytes": 2063,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_depth_line.svg",
+      "bytes": 3033,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_flat.svg",
+      "bytes": 1009,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_gloss.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_gradient.svg",
+      "bytes": 1476,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_round_line.svg",
+      "bytes": 1835,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_border.svg",
+      "bytes": 1074,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_depth_border.svg",
+      "bytes": 2211,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_depth_flat.svg",
+      "bytes": 1872,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_depth_gloss.svg",
+      "bytes": 837,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_depth_gradient.svg",
+      "bytes": 1302,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_depth_line.svg",
+      "bytes": 2166,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_flat.svg",
+      "bytes": 1207,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_gloss.svg",
+      "bytes": 1241,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_gradient.svg",
+      "bytes": 1990,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/button_square_line.svg",
+      "bytes": 1029,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_round_color.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_round_grey.svg",
+      "bytes": 985,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_round_grey_circle.svg",
+      "bytes": 1659,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_round_round_circle.svg",
+      "bytes": 1661,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_color.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_color_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_color_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_color_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_grey.svg",
+      "bytes": 642,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_grey_checkmark.svg",
+      "bytes": 1610,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_grey_cross.svg",
+      "bytes": 1978,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/check_square_grey_square.svg",
+      "bytes": 875,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_circle.svg",
+      "bytes": 740,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_outline_checkmark.svg",
+      "bytes": 996,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_outline_circle.svg",
+      "bytes": 748,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_outline_cross.svg",
+      "bytes": 1403,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_outline_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/icon_square.svg",
+      "bytes": 352,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_hangle.svg",
+      "bytes": 1202,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_horizontal_color.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_horizontal_color_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_horizontal_color_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_horizontal_grey.svg",
+      "bytes": 1094,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_horizontal_grey_section.svg",
+      "bytes": 924,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_horizontal_grey_section_wide.svg",
+      "bytes": 918,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_vertical_color.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_vertical_color_section.svg",
+      "bytes": 911,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_vertical_color_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_vertical_grey.svg",
+      "bytes": 1081,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_vertical_grey_section.svg",
+      "bytes": 912,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/slide_vertical_grey_section_wide.svg",
+      "bytes": 909,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/star.svg",
+      "bytes": 2465,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/star_outline.svg",
+      "bytes": 2717,
+      "extension": ".svg"
+    },
+    {
+      "path": "Vector/Yellow/star_outline_depth.svg",
+      "bytes": 1322,
+      "extension": ".svg"
+    },
+    {
+      "path": "Visit Kenney.url",
+      "bytes": 45,
+      "extension": ".url"
+    },
+    {
+      "path": "Visit Patreon.url",
+      "bytes": 55,
+      "extension": ".url"
+    }
+  ]
+}

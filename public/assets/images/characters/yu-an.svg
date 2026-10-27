@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <clipPath id="portrait">
+      <circle cx="128" cy="128" r="124" />
+    </clipPath>
+  </defs>
+  <g clip-path="url(#portrait)">
+    <rect width="256" height="256" fill="#E8E5DC" />
+    <circle cx="202" cy="45" r="48" fill="#D8E2DB" />
+    <path d="M35 256c7-52 43-79 93-79s86 27 93 79" fill="#718A7F" />
+    <path d="M94 170h68v46H94z" fill="#D6A17E" />
+    <path d="M79 98c0-47 21-72 53-72 38 0 57 29 57 75v32c0 39-27 68-60 68-31 0-57-29-57-67z" fill="#463D39" />
+    <path d="M91 105c0-32 16-53 42-53 27 0 45 21 45 53v31c0 33-19 56-44 56-25 0-43-23-43-56z" fill="#DFAF91" />
+    <path d="M84 103c-4-40 15-75 49-75 33 0 53 24 56 65-17-4-30-16-38-30-16 19-39 31-67 34z" fill="#463D39" />
+    <path d="M106 124c5-4 11-4 16 0" fill="none" stroke="#66534C" stroke-linecap="round" stroke-width="4" />
+    <path d="M142 124c5-4 11-4 16 0" fill="none" stroke="#66534C" stroke-linecap="round" stroke-width="4" />
+    <circle cx="115" cy="137" r="3" fill="#463D39" />
+    <circle cx="150" cy="137" r="3" fill="#463D39" />
+    <path d="M122 157c5 4 12 4 17 0" fill="none" stroke="#9D6254" stroke-linecap="round" stroke-width="3" />
+    <path d="M70 256c5-39 25-61 58-61 35 0 55 22 60 61" fill="#718A7F" />
+    <path d="M112 195l16 19 16-19" fill="#F4F1EA" />
+  </g>
+  <circle cx="128" cy="128" r="123" fill="none" stroke="#FFFEFA" stroke-width="6" />
+</svg>

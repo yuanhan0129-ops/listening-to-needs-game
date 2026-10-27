@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "pack": "ui-pack",
+  "sourcePage": "https://kenney.nl/assets/ui-pack",
+  "downloadedAt": "2026-10-27T07:51:27+00:00",
+  "archive": "assets/source/kenney/ui-pack.zip",
+  "extractedTo": "public/assets/kenney/ui-pack",
+  "archiveBytes": 1229750,
+  "archiveSha256": "a8a14a234911eb648c062622915c93e79e94e97cb7f9f375a70f6617f1174318",
+  "expandedBytes": 1416520
+}
